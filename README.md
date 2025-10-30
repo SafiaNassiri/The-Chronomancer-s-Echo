@@ -1,4 +1,4 @@
-# The-Chronomancer-s-Echo
+# The Chronomancer's Echo
 
 ## Project Overview
 This project is a 2D, story-driven puzzle game leveraging the Visual Novel format and Resident Evil-style environmental puzzles. 
