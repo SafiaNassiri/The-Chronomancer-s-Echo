@@ -8,15 +8,17 @@ The core mechanic is a 15-minute Time Loop, which forces the player to apply kno
 - Goal: Successfully execute a sequence of actions within a single loop to retrieve or destroy a dangerous artifact before the time reset.
 
 ## Final Project Requirements Checklist
-Requirement,"Implementation in ""The Chronomancer's Echo""",Complexity/Feature Showcased
-Locomotion,2D character movement (walk/idle) within the single-scene office environment.,Basic Player Controller for movement and interaction raycasting.
-Sound Effects,"SFX for item pickups, UI clicks, successful puzzle solves, and environmental cues (e.g., the coffee maker sputtering, the clock ticking).",Diverse SFX usage to provide feedback on interaction.
-Music,"Dynamic, looping music with a low Chronometric Pulse. Music volume/pitch adjusts based on time remaining in the current loop (using the Audio Mixer).",Dynamic Audio Management driven by C# script.
-Artwork,"High-detail static 2D background art for the office. Sprite sheet for the main character (walk cycle, idle). Animated sprites for key interactable objects (e.g., the Pendulum Clock).",Consistent aesthetic and multi-layered 2D assets.
-Animation,"Animated States for the player (walk/idle). Tightly timed animations for the Vanishing Clue Ghost and object reactions (e.g., a lever moving, a book opening).",Use of Unity's Animator Controller with multiple state transitions and triggers.
-Narrative/Theme/Story,Deep lore centered on Professor Eldrich's obsession with Achronicity. Progress is locked behind Dialogue Trees and successful Clue Synthesis.,Primary focus of the project; uses a structured Dialogue System.
-UI/Menus,"Start/Pause Menu, Health/Timer UI, and the complex Temporal Index (Clue Log) for clue combination.","Demonstrates advanced UI scripting (e.g., Drag-and-Drop system)."
-Interaction (Player/Env),"The game is built around complex RE-style puzzles requiring items to be found, combined via UI, and used on objects in the environment.","Heavy use of Raycasts, Collider Triggers, and conditional logic."
+| **Requirement** | **Implementation in _The Chronomancer's Echo_** | **Complexity / Feature Showcased** |
+|------------------|-----------------------------------------------|------------------------------------|
+| **Locomotion** | 2D character movement (walk/idle) within the single-scene office environment. | Basic Player Controller for movement and interaction raycasting. |
+| **Sound Effects** | SFX for item pickups, UI clicks, successful puzzle solves, and environmental cues (e.g., the coffee maker sputtering, the clock ticking). | Diverse SFX usage to provide feedback on interaction. |
+| **Music** | Dynamic, looping music with a low Chronometric Pulse. Music volume/pitch adjusts based on time remaining in the current loop (using the Audio Mixer). | Dynamic Audio Management driven by C# script. |
+| **Artwork** | High-detail static 2D background art for the office. Sprite sheet for the main character (walk cycle, idle). Animated sprites for key interactable objects (e.g., the Pendulum Clock). | Consistent aesthetic and multi-layered 2D assets. |
+| **Animation** | Animated States for the player (walk/idle). Tightly timed animations for the Vanishing Clue Ghost and object reactions (e.g., a lever moving, a book opening). | Use of Unity's Animator Controller with multiple state transitions and triggers. |
+| **Narrative / Theme / Story** | Deep lore centered on Professor Eldrich's obsession with Achronicity. Progress is locked behind Dialogue Trees and successful Clue Synthesis. | Primary focus of the project; uses a structured Dialogue System. |
+| **UI / Menus** | Start/Pause Menu, Health/Timer UI, and the complex Temporal Index (Clue Log) for clue combination. | Demonstrates advanced UI scripting (e.g., Drag-and-Drop system). |
+| **Interaction (Player / Env)** | The game is built around complex RE-style puzzles requiring items to be found, combined via UI, and used on objects in the environment. | Heavy use of Raycasts, Collider Triggers, and conditional logic. |
+
 
 ## Core Mechanics: The Loop & State Management
 ### The Time Loop System
